@@ -1438,7 +1438,7 @@ class api_extend extends external_api
             'filesize' => new external_value(PARAM_INT, 'File size in bytes'),
             'mimetype' => new external_value(PARAM_TEXT, 'Mime type'),
             'content' => new external_value(PARAM_RAW, 'Base64-encoded file content'),
-            'contentencoding' => new external_value(PARAM_ALPHA, 'Encoding used for content'),
+            'contentencoding' => new external_value(PARAM_TEXT, 'Encoding used for content'),
             'fileurl' => new external_value(PARAM_RAW, 'Pluginfile URL if the caller can use it'),
         ]);
     }
