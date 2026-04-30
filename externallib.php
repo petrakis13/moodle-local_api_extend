@@ -385,7 +385,7 @@ class api_extend extends external_api
                     'course' => $params['courseid'],
                     'name' => 'reengagement',
                     'intro' => 'reengagement',
-                    'duedate' => false,
+                    'duedate' => null,
                     'grade' => 0.00,
                     'visible' => 0,
                     'module_type' => $record->module_name,
